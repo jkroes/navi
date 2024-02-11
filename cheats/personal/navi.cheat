@@ -1,0 +1,25 @@
+% cheat,navi
+
+% repo
+
+# Browse for cheatsheet repos to add
+navi repo browse
+
+# Download default cheatsheets
+navi repo add denisidoro/cheats
+
+% 3rd-party
+
+# Search using tldr
+navi --tldr "<query>"
+
+# Search using cheatsh
+navi --cheatsh "<query>"
+
+% help
+
+# Basic help for navi
+navi --help
+
+# Browse navi docs online
+navi fn url::open "https://github.com/denisidoro/navi/tree/master/docs"
