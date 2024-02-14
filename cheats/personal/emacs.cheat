@@ -1,0 +1,4 @@
+% emacs
+
+# Un-hang hung emacs process
+kill -USR2 $(ps aux | grep emacs | tail -n 1 | awk '{ print $2 }')
